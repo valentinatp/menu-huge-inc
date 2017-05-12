@@ -144,3 +144,18 @@ nav .open ul li{
     font-size: 60px;
     visibility: visible !important;
 }
+nav .header-in{
+    background-color: rgba(217, 40, 130, 0.9); 
+}
+.solid #toggle .menu{
+    background: #fff;
+}
+.solid #toggle .menu:after{
+    background-color: #fff;
+}
+.solid #toggle .menu:before{
+    background-color: #fff;
+}
+nav.solid #logo .logo{
+    background-image: url(http://www.hugeinc.com/content/images/util/logo_white.png);
+}
