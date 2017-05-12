@@ -49,3 +49,24 @@ nav {
     top: 0;
     right: 0;
 }
+.menu:before, .menu:after{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 4px;
+    background: #ec008c;
+    position: obsolute;
+    z-index: -1;
+}
+.menu:before{
+    top: -8px;
+}
+.menu:after{
+    top: 8px;
+}
+#toggle:hover .menu:before{
+    top: -9px;
+}
+#toogle:hover .menu:after{
+    top: -9px;
+}
