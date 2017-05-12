@@ -159,3 +159,6 @@ nav .header-in{
 nav.solid #logo .logo{
     background-image: url(http://www.hugeinc.com/content/images/util/logo_white.png);
 }
+.overflow-hidden{
+    overflow: hidden;
+}
