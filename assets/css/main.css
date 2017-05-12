@@ -70,3 +70,16 @@ nav {
 #toogle:hover .menu:after{
     top: -9px;
 }
+.open .menu{
+    background: none !important;
+}
+.open .menu:after{
+    top: 0 !important;
+    background: #fff !important;
+    transform: rotate(45deg);
+}
+.open .menu:before{
+    top:0 !important;
+    background: #fff !important;
+    transform: rotate(-45deg);
+}
